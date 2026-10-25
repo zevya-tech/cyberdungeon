@@ -3,12 +3,16 @@
 <head>
     <meta charset="utf-8">
     <title>CyberDungeon // Secure Dispatch</title>
+    <link rel="icon" type="image/png" href="CyberDungeonLogo.png">
 </head>
 <body style="background: #050B1A; color: #00E5FF; font-family: monospace; margin: 0; height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 20px;">
+    
+
+    <img src="CyberDungeonLogo.png" alt="CyberDungeon Logo" style="width: 80px; height: 80px; margin-bottom: 20px; border-radius: 8px; border: 1px solid #00E5FF;">
+
     <h3 style="margin: 0 0 10px 0;">[INTERCEPTING SECURE DISPATCH...]</h3>
     <p style="margin: 0 0 20px 0;">Launching CyberDungeon mainframe...</p>
     
-    <!-- Play Store Badge Fallback -->
     <div style="margin: 10px 0;">
         <a href="https://play.google.com/store/apps/details?id=com.b4yu.cyberdungeon">
             <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
@@ -20,7 +24,6 @@
     <p style="font-size: 11px; color: #546E7A; margin-top: 20px; max-width: 300px;">If the app doesn't open automatically, install or open CyberDungeon on your Android device.</p>
     
     <script>
-        // Wait 0.5 seconds so the text renders, then launch the app
         setTimeout(function() {
             window.location.href = "cyberdungeon://decrypt" + window.location.search;
         }, 500);
